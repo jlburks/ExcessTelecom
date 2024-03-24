@@ -23,10 +23,6 @@
   margin-left: 50px;
 }
 
-.navButtons {
-  border-bottom: 3px solid rgb(141, 141, 141);
-}
-
 .navButtons,
 button {
   background: none;
@@ -39,6 +35,8 @@ button {
   font-size: 30px;
   text-align: center;
   padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .navButtons,
@@ -49,12 +47,14 @@ button:hover {
 
 #homePage {
   display: block;
+  text-align: center;
 }
 
 #aboutPage,
 #devicesPage,
 #internetPage {
   display: none;
+  text-align: center;
 }
 
 #main {
