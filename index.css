@@ -41,6 +41,12 @@ button {
   padding-bottom: 10px;
 }
 
+.navButtons,
+button:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
 #homePage {
   display: block;
 }
