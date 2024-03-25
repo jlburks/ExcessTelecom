@@ -1,13 +1,14 @@
 function openNav() {
   document.getElementById("mySidenav").style.width = "50%";
-  document.getElementById("mainContent").style.marginLeft = "55%";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.6)";
+  // document.getElementById("mainContent").style.marginLeft = "55%";
+  document.body.style.backgroundColor = "rgba(17, 31, 68,0.85)";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("mainContent").style.marginLeft = "0";
   document.body.style.backgroundColor = "white";
+  document.body.style.backgroundColor = "rgba(17, 31, 68)";
 }
 
 function toHomePage() {
