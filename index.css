@@ -5,7 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #000000;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
@@ -45,9 +45,14 @@ button:hover {
   transition: 0.5s;
 }
 
+.excessLogo {
+  text-align: center;
+}
 #homePage {
   display: block;
   text-align: center;
+  width: 65%;
+  padding-left: 17%;
 }
 
 #aboutPage,
@@ -55,11 +60,13 @@ button:hover {
 #internetPage {
   display: none;
   text-align: center;
+  width: 65%;
+  padding-left: 17%;
 }
 
 #main {
   transition: margin-left 0.5s;
-  padding: 20px;
+  padding: 15px;
 }
 
 @media screen and (max-heigth: 450px) {
