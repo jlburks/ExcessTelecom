@@ -88,7 +88,13 @@ body {
   font-size: 40px;
 }
 
+h1 {
+  color: lightsteelblue;
+}
+
 .list {
   width: 200px;
-  padding-left: 40%;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 12px;
 }
