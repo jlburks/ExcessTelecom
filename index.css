@@ -55,6 +55,11 @@ button:hover {
   padding-left: 17%;
   color: white;
 }
+footer {
+  background-color: #a5bae2;
+  padding: 40px 70px 10px 70px;
+  font-size: xx-small;
+}
 
 #aboutPage,
 #devicesPage,
